@@ -1,6 +1,6 @@
 # Open Problems in Single‑Cell Analysis
 
-**Define, benchmark, and improve single‑cell methods via open standards and continuous leaderboards.**
+**Define and benchmark challenges in single-cell data science via open standards and continuous leaderboards to promote method development and guide users in method selection.**
 This organization hosts the code, tasks, datasets, and docs behind the Open Problems platform.
 
 * **Website & docs:** [openproblems.bio](https://openproblems.bio) · [Documentation](https://openproblems.bio/documentation)
@@ -22,6 +22,8 @@ This organization hosts the code, tasks, datasets, and docs behind the Open Prob
 
 ## How the platform works (in short)
 
+More detailed documentation below.
+
 * **Tasks** define an API, reference datasets, and **quantitative metrics**.
 * **Methods** implement that task API.
 * **Continuous evaluation** runs standardized workflows to score methods and update leaderboards.
@@ -42,14 +44,15 @@ This organization hosts the code, tasks, datasets, and docs behind the Open Prob
    Read the platform [Documentation](https://openproblems.bio/documentation) for install requirements and common commands. Components are containerized; workflows run on laptop, HPC, or cloud.
 
 3. **Add your method to a task**
-   Follow the docs (“Create component → Add a method”) and open a PR in the corresponding `task_*` repo. See repo READMEs for task‑specific APIs.
+   Follow the docs ("Create component → Add a method") and open a PR in the corresponding `task_*` repo. See repo READMEs for task‑specific APIs.
 
 4. **Propose or start a new task**
-   Start from [`task_template`](https://github.com/openproblems-bio/task_template) and the docs (“Create a new task”). Open an issue to coordinate scope and maintainership.
+   Start from [`task_template`](https://github.com/openproblems-bio/task_template) and the docs ("Create a new task"). Open an issue to coordinate scope and maintainership.
 
 5. **Join the community**
 
    * Chat: [Discord](https://discord.com/invite/PEmRN4tjvE)
+   * Working meetings: [Join our weekly working meetings](https://openproblems.bio/events/weekly_coworking)
    * Announcements & events: [Interest form / mailing list](https://docs.google.com/forms/d/e/1FAIpQLSe90Oky4-1b0HbdLsp5Yqo9juCd2mq-NlGHU9NHRW1ECok1xQ/viewform?usp=sf_link)
    * Events archive: [openproblems.bio/events](https://openproblems.bio/events)
 
@@ -66,8 +69,10 @@ This organization hosts the code, tasks, datasets, and docs behind the Open Prob
 
 If you use Open Problems, please cite:
 
-> Luecken, M.D., Gigante, S., Burkhardt, D.B. *et al.* **Defining and benchmarking open problems in single‑cell analysis.** *Nature Biotechnology* (2025).
+> Luecken, M.D., Gigante, S., Burkhardt, D.B. *et al.* **Defining and benchmarking open problems in single‑cell analysis.** *Nature Biotechnology* (2025).
 > [https://doi.org/10.1038/s41587-025-02694-w](https://doi.org/10.1038/s41587-025-02694-w)
+
+To reference specific tasks or datasets, please cite the corresponding task or dataset publications mentioned in the task descriptions and dataset pages. For example, to reference our Open Problems multimodal BMMC datasets, please cite Luecken et al., NeurIPS 2021.
 
 Also see earlier NeurIPS challenge reports and proceedings referenced on the [Events](https://openproblems.bio/events) page.
 
@@ -75,15 +80,17 @@ Also see earlier NeurIPS challenge reports and proceedings referenced on the [Ev
 
 ## Licensing
 
+Open Problems is free open source software and distributed under the [MIT License](https://opensource.org/license/mit). However, Open Problems tasks may include references to data or code distributed by a third party under a different license. If any question about license arises, please consult the specific repository in which a particular asset is hosted. If further clarification is needed, please open a GitHub Issue referencing the asset if any clarification is needed.
+
 * **Code** in this org is **MIT** unless stated otherwise in the repo.
-* The **website** repo uses mixed licensing: Markdown/JSON content under **CC‑BY‑4.0** and code under **MIT** (see that repo’s LICENSE files).
+* The **website** repo uses mixed licensing: Markdown/JSON content under **CC‑BY‑4.0** and code under **MIT** (see that repo's LICENSE files).
 * **Datasets** retain their **original source licenses/terms**; check dataset pages before downstream use.
 
 ---
 
 ## Acknowledgments
 
-Open Problems is supported by a growing community and sponsors including the **Chan Zuckerberg Initiative**, **Saturn Cloud**, **Helmholtz Munich**, **Cellarity**, and **Data Intuitive**. See the website for the latest list.
+Open Problems is supported by a growing community and sponsors including the [**Chan Zuckerberg Initiative**](https://chanzuckerberg.com/), [**Data Intuitive**](https://www.data-intuitive.com/), [**Helmholtz Munich**](https://www.helmholtz-munich.de/en), [**Saturn Cloud**](https://saturncloud.io/), and [**Seqera**](https://seqera.io/). See the website for the latest list.
 
 ---
 
