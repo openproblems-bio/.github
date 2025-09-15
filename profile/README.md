@@ -12,11 +12,11 @@ This organization hosts the code, tasks, datasets, and docs behind the Open Prob
 
 ## What lives in this org
 
-* **Core platform:** [`openproblems`](https://github.com/openproblems-bio/openproblems) — the living, extensible, community‑guided benchmarking framework.
-* **Common datasets:** [`datasets`](https://github.com/openproblems-bio/datasets) — workflows for managing and processing common datasets.
-* **Benchmarks as repositories:** task‑specific repos named `task_*` (e.g., `task_batch_integration`, `task_label_projection`, `task_spatially_variable_genes`, etc.).
-* **Task template:** [`task_template`](https://github.com/openproblems-bio/task_template) — scaffolding to start a new benchmark with the correct structure.
-* **Shared libraries & images:** [`core`](https://github.com/openproblems-bio/core) — helper R/Python packages and base Docker images used across tasks.
+* **Core platform** - [`openproblems`](https://github.com/openproblems-bio/openproblems): the living, extensible, community‑guided benchmarking framework.
+* **Common datasets** - [`datasets`](https://github.com/openproblems-bio/datasets): workflows for managing and processing common datasets.
+* **Benchmarks as repositories**: task‑specific repos named `task_*` (e.g., `task_batch_integration`, `task_label_projection`, `task_spatially_variable_genes`, etc.).
+* **Task template** - [`task_template`](https://github.com/openproblems-bio/task_template): scaffolding to start a new benchmark with the correct structure.
+* **Shared libraries & images** - [`core`](https://github.com/openproblems-bio/core): helper R/Python packages and base Docker images used across tasks.
 
 ---
 
